@@ -1,0 +1,36 @@
+{
+    "name": "exit-pools-georgia",
+    "version": "1.0.0",
+    "description": "Exit Pools Georgia",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gchantura/NodeJSAgain.git"
+    },
+    "keywords": [
+        "nodejs",
+        "login",
+        "register",
+        "mysql",
+        "app"
+    ],
+    "author": "Giorgi & Anna Chanturia",
+    "license": "ISC",
+    "homepage": "https://github.com/gchantura/NodeJSAgain.git",
+    "dependencies": {
+        "bcrypt": "^5.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.2",
+        "express-session": "^1.17.1",
+        "git": "^0.1.5",
+        "mysql": "^2.18.1",
+        "pug": "^3.0.0",
+        "util.promisify": "^1.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
